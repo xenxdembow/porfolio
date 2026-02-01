@@ -10,9 +10,8 @@ figure {
 }
 
 body {
-  font-family: Arial, sans-serif;
-  justify-content: center;
-  min-height: 300vh; 
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  justify-content: center; 
   padding-top: 2vh;
   background: linear-gradient(90deg, rgb(105, 216, 215), #026e65);
 }
@@ -50,11 +49,6 @@ body {
   box-shadow: 10px 5px 5px #81bfb1;
 }
 
-section{
-  margin-top: 20vh;
-  height: 83.5vh;
-}
-
 #contenedor{
   position: relative;
   width: 64%;
@@ -62,6 +56,8 @@ section{
 }
 
 #Yo{
+  margin-top: 30vh;
+  height: 83.5vh;
   display: grid;
   grid-template-areas: 
     "imagen texto";
@@ -78,7 +74,6 @@ section{
   padding-top: 11vh;
   padding-right: 20vw;
   text-align: center;
-  font-family: 'Times New Roman', Times, serif;
   font-size: 21px;
 }
 
@@ -153,7 +148,6 @@ section{
 }
 
 .titulo-seccion {
-  font-family: Arial, sans-serif;
   color: #fff; 
   font-size: 2.5rem;
   margin-bottom: 5vh;
@@ -208,7 +202,6 @@ section{
   line-height: 1.4;
 }
 
-
 .btn-card {
   display: inline-block;
   padding: 10px 20px;
@@ -222,4 +215,42 @@ section{
 
 .btn-card:hover {
   background-color: #000; 
+}
+.lenguajes{
+  display: flex;
+  height: 4vh;
+  padding-left: 15vw;
+  margin-top: 2vh;
+  gap: 1vw;
+}
+
+.destacado {
+  color: black; 
+  font-weight: bold;
+  text-shadow: 0px 0px 10px rgba(148, 241, 222, 0.3); 
+  font-size: 24px;
+}
+
+#CV{
+  margin-top: 18vh;
+  display: flex;
+  align-items: center;
+  gap: 14vw;
+  background-color: #94F1DE;
+  border-radius: 45px;
+  padding: 1vw;
+}
+.logos{
+  display: flex;
+  gap: 1vw;
+}
+
+.copy{
+  padding-top: 2vh;
+  display: flex;
+  align-items: center;
+}
+
+.copy img{
+  height: 2vh;
 }

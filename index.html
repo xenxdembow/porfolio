@@ -24,7 +24,7 @@
           <a href="#Proyectos" class="enlace">Proyectos</a>
         </li>
         <li class="contenido">
-          <a href="#CV" class="enlace-boton-cv">Contáctame</a>
+          <a href="#CV" data-bs-toggle="modal" data-bs-target="#contactoModal" class="enlace-boton-cv">Contáctame</a>
         </li>
       </ul>
   </nav>
@@ -111,6 +111,26 @@
       2026<img src="img/copyright.svg" alt="copyright">
     </section>
   </main>
+  <div class="modal fade" id="contactoModal" tabindex="-1" aria-labelledby="contactoModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content" style="background-color: #94F1DE; border-radius: 20px;">
+        <div class="modal-header border-0">
+          <h5 class="modal-title fw-bold" id="contactoModalLabel">¡Hablemos!</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body text-center">
+          <p>Estoy disponible para nuevos proyectos. Puedes escribirme directamente a:</p>
+          <p class="fs-5 fw-bold"><img src="img/mail.svg" alt="mail" style="height: 20px; margin-right: 10px;">jorcanllo01@gmail.com</p>
+          <hr style="border-color: #026e65;">
+          <p class="mb-0">O llámame al:</p>
+          <p class="fs-5 fw-bold"><img src="img/movil.svg" alt="tlf" style="height: 20px; margin-right: 10px;">+34 611 24 59 99</p>
+        </div>
+        <div class="modal-footer border-0 justify-content-center">
+          <a href="mailto:jorcanllo01@gmail.com" class="btn" style="background-color: #026e65; color: white; border-radius: 20px;">Enviar Email</a>
+        </div>
+      </div>
+    </div>
+  </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
